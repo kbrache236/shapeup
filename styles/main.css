@@ -46,6 +46,17 @@ aside a:visited {
     color: maroon;
 }
 
+main {
+    display: flex;
+}
+
+section {
+    max-width: 75%;
+}
+aside {
+    max-width: 25%;
+}
+
 h1 {
     margin-left: 3%;
 }
@@ -61,8 +72,13 @@ blockquote {
 section h2, section h4, aside h2 {
     margin: 0 3% 20px;
 }
+
+aside h2 {
+    margin-top: 20px;
+}
 aside ul {
     margin-left: 8%;
+    padding-left: 5%;
     line-height: 1.5;
 }
 
